@@ -1,0 +1,15 @@
+/* Para que la imagen pierda el fondo que tiene */
+.cabezera__logo{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+@media screen and(min-width: 0){
+    .cabezera__logo{
+        display: none !important;
+    }
+}
+@media screen and(min-width: 768px){
+    .cabezera__logo{
+        display: block;
+    }
+}
